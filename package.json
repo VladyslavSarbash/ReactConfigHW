@@ -19,6 +19,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "prepush": "npm run deploy",
     "push": "git add . && git commit -m 'HW' && git push ",
     "prepare": "husky install"
   },
